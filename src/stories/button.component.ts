@@ -11,7 +11,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   [ngClass]="classes"
   [ngStyle]="{ 'background-color': backgroundColor }"
 >
-  {{ label }}test
+  {{ label }}
 </button>`,
   styleUrls: ['./button.css'],
 })
